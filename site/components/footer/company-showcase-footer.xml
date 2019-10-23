@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template>/templates/web/components/footer.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a253ddc8</objectGroupId>
+	<objectId>a253ddc8-3162-4177-a10a-599b6d2c761a</objectId>
+	<internal-name>company-showcase-footer </internal-name>
+	<file-name>company-showcase-footer.xml</file-name>
+	<folder-name/>
+	<brandCopyright_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 15px; letter-spacing: 0.88px; text-transform: capitalize; background-color: #ffffff;"&gt;Copyright &amp;copy; 2020 Company . Design:&amp;nbsp;&lt;/span&gt;&lt;a style="box-sizing: border-box; color: #007bff; background-color: #ffffff; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Roboto, sans-serif; font-size: 15px; letter-spacing: 0.88px; text-transform: capitalize; text-decoration-line: none !important;" href="#" rel="nofollow"&gt;TemplateMo&lt;/a&gt;&lt;/p&gt;</brandCopyright_html>
+	<createdDate>2019-10-18T01:09:56.953Z</createdDate>
+	<createdDate_dt>2019-10-18T01:09:56.953Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T20:57:22.776Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T20:57:22.776Z</lastModifiedDate_dt>
+	<socialButtons_o item-list="true">	<item datasource="socialButtonComponents">	<key>/site/components/social-button/facebook.xml</key>
+	<value>facebook</value>
+	<include>/site/components/social-button/facebook.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="socialButtonComponents">	<key>/site/components/social-button/linked-in.xml</key>
+	<value>linked-in</value>
+	<include>/site/components/social-button/linked-in.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="socialButtonComponents">	<key>/site/components/social-button/twitter.xml</key>
+	<value>twitter</value>
+	<include>/site/components/social-button/twitter.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></socialButtons_o>
+</component>

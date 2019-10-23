@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/social-button</content-type>
+	<display-template>/templates/web/components/social-button.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e3be</objectGroupId>
+	<objectId>e3be58f2-d0da-e35b-4cd0-7af69794c2b5</objectId>
+	<internal-name>twitter</internal-name>
+	<socialButtonUrl_s>https://www.twitter.com</socialButtonUrl_s>
+	<socialButtonFontawesomeCssClass_s>fa fa-twitter</socialButtonFontawesomeCssClass_s>
+	<file-name>twitter.xml</file-name>
+	<folder-name/>
+	<createdDate>2019-10-18T21:35:02.174Z</createdDate>
+	<createdDate_dt>2019-10-18T21:35:02.174Z</createdDate_dt>
+	<lastModifiedDate>2019-10-18T21:35:02.174Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-18T21:35:02.174Z</lastModifiedDate_dt>
+</component>

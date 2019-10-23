@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/header</content-type>
+	<display-template>/templates/web/components/header.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a933</objectGroupId>
+	<objectId>a9338e6f-1857-d867-ffb3-79e3812f07ec</objectId>
+	<file-name>company-showcase-header.xml</file-name>
+	<folder-name/>
+	<internal-name>company-showcase-header</internal-name>
+	<brandName_s>Company Showcase</brandName_s>
+	<brandNameUrl_s>#</brandNameUrl_s>
+	<createdDate>2019-10-17T19:43:19.639Z</createdDate>
+	<createdDate_dt>2019-10-17T19:43:19.639Z</createdDate_dt>
+	<lastModifiedDate>2019-10-18T00:52:01.192Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-18T00:52:01.192Z</lastModifiedDate_dt>
+</component>

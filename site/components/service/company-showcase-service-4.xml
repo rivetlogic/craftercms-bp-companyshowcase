@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/service</content-type>
+	<display-template>/templates/web/components/service.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c744</objectGroupId>
+	<objectId>c74425cf-cbb8-bf2d-02e6-eb159d6aa994</objectId>
+	<file-name>company-showcase-service-4.xml</file-name>
+	<folder-name/>
+	<internal-name>company-showcase-service-4</internal-name>
+	<createdDate>2019-10-18T20:37:35.913Z</createdDate>
+	<createdDate_dt>2019-10-18T20:37:35.913Z</createdDate_dt>
+	<lastModifiedDate>2019-10-18T20:55:24.132Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-18T20:55:24.132Z</lastModifiedDate_dt>
+	<serviceImage_s>/static-assets/images/service-icon-02.png</serviceImage_s>
+	<serviceDescription_t>Nostrum blanditiis consequatur repellendus earum minus. Et sed est aperiam tempore. Nihil minus voluptas nulla quo quia omnis voluptas at. Qui corrupti et qui sunt accusamus.</serviceDescription_t>
+	<serviceImageAccessibilityText_s/>
+	<serviceTitle_s>Fourth Service Box</serviceTitle_s>
+	<serviceButtonLabel_s>READ MORE</serviceButtonLabel_s>
+	<serviceButtonUrl_s>#</serviceButtonUrl_s>
+</component>

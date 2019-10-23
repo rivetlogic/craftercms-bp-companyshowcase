@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/home</content-type>
+	<display-template>/templates/web/home.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T20:56:24.618Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T20:56:24.618Z</lastModifiedDate_dt>
+	<services_o item-list="true">	<item datasource="serviceComponents">	<key>/site/components/services/company-showcase-services.xml</key>
+	<value>company-showcase-services</value>
+	<include>/site/components/services/company-showcase-services.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></services_o>
+	<title_s/>
+	<header_o item-list="true">	<item datasource="headerComponents">	<key>/site/components/headers/company-showcase-header.xml</key>
+	<value>company-showcase-header</value>
+	<include>/site/components/headers/company-showcase-header.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
+	<welcomeArea_o item-list="true">	<item datasource="welcomeAreaComponents">	<key>/site/components/welcome-areas/company-showcase-welcome-area.xml</key>
+	<value>company-showcase-welcome-area</value>
+	<include>/site/components/welcome-areas/company-showcase-welcome-area.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></welcomeArea_o>
+	<primaryAboutUs_o item-list="true">	<item datasource="about1Components">	<key>/site/components/about1/company-showcase-about1.xml</key>
+	<value>company-showcase-about1</value>
+	<include>/site/components/about1/company-showcase-about1.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></primaryAboutUs_o>
+	<secondaryAboutUs_o item-list="true">	<item datasource="about2Components">	<key>/site/components/about2/company-showcase-about2.xml</key>
+	<value>company-showcase-about2</value>
+	<include>/site/components/about2/company-showcase-about2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></secondaryAboutUs_o>
+	<frequentlyAskedQuestions_o item-list="true">	<item datasource="frequentlyAskedQuestionsComponents">	<key>/site/components/frequently-asked-questions/company-showcase-faqs.xml</key>
+	<value>company-showcase-faqs</value>
+	<include>/site/components/frequently-asked-questions/company-showcase-faqs.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></frequentlyAskedQuestions_o>
+	<contact_o item-list="true">	<item datasource="contactComponents">	<key>/site/components/contact/company-showcase-contact.xml</key>
+	<value>company-showcase-contact</value>
+	<include>/site/components/contact/company-showcase-contact.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></contact_o>
+	<footer_o item-list="true">	<item datasource="footerComponents">	<key>/site/components/footer/company-showcase-footer.xml</key>
+	<value>company-showcase-footer </value>
+	<include>/site/components/footer/company-showcase-footer.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></footer_o>
+	<preloader_o item-list="true">	<item datasource="preloaderComponents">	<key>/site/components/preloader/company-showcase-preloader.xml</key>
+	<value>company-showcase-preloader</value>
+	<include>/site/components/preloader/company-showcase-preloader.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></preloader_o>
+</page>

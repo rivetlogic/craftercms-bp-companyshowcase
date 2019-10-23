@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c5c1</objectGroupId>
+	<objectId>c5c12bfd-5c38-1c3d-0b25-0d9ff399bf45</objectId>
+	<file-name>company-showcase-question-3.xml</file-name>
+	<folder-name/>
+	<internal-name>company-showcase-question-3</internal-name>
+	<question_s>Third Answer for you</question_s>
+	<answer_html>&lt;p&gt;Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim.&lt;br /&gt;&lt;br /&gt;Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-21T22:56:50.285Z</createdDate>
+	<createdDate_dt>2019-10-21T22:56:50.285Z</createdDate_dt>
+	<lastModifiedDate>2019-10-21T22:56:50.285Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-21T22:56:50.285Z</lastModifiedDate_dt>
+</component>

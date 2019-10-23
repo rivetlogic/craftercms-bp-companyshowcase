@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/social-button</content-type>
+	<display-template>/templates/web/components/social-button.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f95c</objectGroupId>
+	<objectId>f95c773d-2668-2ac2-3535-5e6a51c7e6cc</objectId>
+	<file-name>linked-in.xml</file-name>
+	<folder-name/>
+	<internal-name>linked-in</internal-name>
+	<socialButtonUrl_s>https://www.linkedin.com</socialButtonUrl_s>
+	<socialButtonFontawesomeCssClass_s>fa fa-linkedin</socialButtonFontawesomeCssClass_s>
+	<createdDate>2019-10-18T21:33:15.200Z</createdDate>
+	<createdDate_dt>2019-10-18T21:33:15.200Z</createdDate_dt>
+	<lastModifiedDate>2019-10-18T21:33:15.200Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-18T21:33:15.200Z</lastModifiedDate_dt>
+</component>

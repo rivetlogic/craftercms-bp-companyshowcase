@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ae6a</objectGroupId>
+	<objectId>ae6aa9d0-a2bd-fa16-c43b-d66b9f009b98</objectId>
+	<file-name>company-showcase-question-1.xml</file-name>
+	<folder-name/>
+	<internal-name>company-showcase-question-1</internal-name>
+	<question_s>First Common Question</question_s>
+	<answer_html>&lt;p&gt;Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.&lt;br /&gt;&lt;br /&gt;Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-21T22:54:06.572Z</createdDate>
+	<createdDate_dt>2019-10-21T22:54:06.572Z</createdDate_dt>
+	<lastModifiedDate>2019-10-21T22:54:06.572Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-21T22:54:06.572Z</lastModifiedDate_dt>
+</component>
