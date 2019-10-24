@@ -1,0 +1,62 @@
+# This file describes a plugin for use in Crafter CMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: blueprint
+  id: com.rivetlogic.craftercms.blueprint.companyshowcase
+  name: "Company Showcase"
+  tags:
+    - blueprint
+    - company
+    - showcase
+  version:
+    major: 1
+    minor: 0
+    patch: 0
+  description: |
+    Company Showcase is a stylish single page Crafter CMS blueprint.
+  website:
+    name: "Company Showcase"
+    url: https://github.com/rivetlogic/craftercms-bp-company-showcase.git
+  media:
+    screenshots:
+      - title: Welcome Area
+        description: Screenshot of the welcome area 
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-companyshowcase/master/static-assets/images/screenshots/bp_companyshowcase_welcome-area.png"
+      - title: About Us Primary Section
+        description: Screenshot of the about us primary section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-companyshowcase/master/static-assets/images/screenshots/bp_companyshowcase_about-1.png"
+      - title: About Us Secondary Section
+        description: Screenshot of the about us secondary section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-companyshowcase/master/static-assets/images/screenshots/bp_companyshowcase_about-2.png"
+      - title: Our Services Section
+        description: Screenshot of the our services section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-companyshowcase/master/static-assets/images/screenshots/bp_companyshowcase_services.png"
+      - title: Frequently Asked Questions
+        description: Screenshot of the frequently asked questions section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-companyshowcase/master/static-assets/images/screenshots/bp_companyshowcase_frequently-asked-questions.png"
+      - title: Contact Us
+        description: Screenshot of the contact us section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-companyshowcase/master/static-assets/images/screenshots/bp_companyshowcase_contact-us.png"
+  developer:
+    company:
+      name: Rivet Logic
+      email: info@rivetlogic.com
+      url: https://rivetlogic.com
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2019-01-23T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 3
+      minor: 1
+      patch: 4
+  crafterCmsEditions:
+    - community
+    - enterprise
+  searchEngine: Elasticsearch

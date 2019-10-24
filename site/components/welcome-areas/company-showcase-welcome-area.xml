@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/welcome-area</content-type>
+	<display-template>/templates/web/components/welcome-area.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>34d8</objectGroupId>
+	<objectId>34d88ef1-535d-4f12-46e0-0bde299923c6</objectId>
+	<internal-name>company-showcase-welcome-area</internal-name>
+	<welcomeHeading_s>Company Showcase Web Site!</welcomeHeading_s>
+	<welcomeButtonLabel_s>FIND OUT MORE</welcomeButtonLabel_s>
+	<welcomeButtonUrl_s>#about</welcomeButtonUrl_s>
+	<welcomeImageAccessibilityText_s>Welcome Area Picture</welcomeImageAccessibilityText_s>
+	<welcomeImage_s>/static-assets/images/slider-icon.png</welcomeImage_s>
+	<file-name>company-showcase-welcome-area.xml</file-name>
+	<folder-name/>
+	<welcomeContent_html>&lt;p&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. Explicabo suscipit ipsa debitis sunt vero.&lt;/p&gt;</welcomeContent_html>
+	<createdDate>2019-10-17T20:15:11.760Z</createdDate>
+	<createdDate_dt>2019-10-17T20:15:11.760Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T20:49:01.389Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T20:49:01.389Z</lastModifiedDate_dt>
+</component>

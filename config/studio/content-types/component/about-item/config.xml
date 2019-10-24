@@ -1,0 +1,13 @@
+<content-type name="/component/about-item" is-wcm-type="true">
+	<label>Component - About Item</label>
+	<form>/component/about-item</form>
+	<form-path>simple</form-path>
+	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
+	<file-extension>xml</file-extension>
+	<content-as-folder>false</content-as-folder>
+	<previewable>false</previewable>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<noThumbnail>false</noThumbnail>
+	<image-thumbnail>bp_companyshowcase_about-item.png</image-thumbnail>
+</content-type>

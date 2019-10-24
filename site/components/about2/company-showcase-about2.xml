@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/about2</content-type>
+	<display-template>/templates/web/components/about2.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e9ae</objectGroupId>
+	<objectId>e9ae2d26-4e3f-64d8-5e7d-7f985a26bd9a</objectId>
+	<file-name>company-showcase-about2.xml</file-name>
+	<folder-name/>
+	<internal-name>company-showcase-about2</internal-name>
+	<aboutSecondaryTitle_s>Curabitur aliquam eget tellus id porta</aboutSecondaryTitle_s>
+	<aboutSecondarySubheading_s>Proin justo sapien, posuere suscipit tortor in, fe</aboutSecondarySubheading_s>
+	<aboutSecondaryImageAccessibilityText_s>About 2 Section Image</aboutSecondaryImageAccessibilityText_s>
+	<aboutSecondaryImage_s>/static-assets/images/right-image.png</aboutSecondaryImage_s>
+	<aboutSecondaryList_o item-list="true">	<item>	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-01.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemTitle_s>Nulla ultricies risus quis risus</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 16px; letter-spacing: 0.5px; background-color: #ffffff;"&gt;Debitis ipsum sed doloribus minus saepe voluptatem. Asperiores sunt quidem aut rerum incidunt. Qui accusantium et corporis quia doloremque iusto iste quae.&lt;/span&gt;&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	</item>	<item>	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-02.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemTitle_s>Donec consequat commodo purus</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. Explicabo suscipit ipsa debitis sunt vero.</aboutSecondaryItemDescription_html>
+	</item>	<item>	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-03.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemTitle_s>Sed placerat sollicitudin mauris</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 16px; letter-spacing: 0.5px; background-color: #ffffff;"&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. &lt;/span&gt;&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	</item></aboutSecondaryList_o>
+	<createdDate>2019-10-17T21:23:29.021Z</createdDate>
+	<createdDate_dt>2019-10-17T21:23:29.021Z</createdDate_dt>
+	<lastModifiedDate>2019-10-21T15:34:36.357Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-21T15:34:36.357Z</lastModifiedDate_dt>
+	<aboutList_o item-list="true">	<item datasource="aboutListComponents">	<key>/site/components/about-list/company-showcase-about-list.xml</key>
+	<value>company-showcase-about-list</value>
+	<include>/site/components/about-list/company-showcase-about-list.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></aboutList_o>
+</component>
