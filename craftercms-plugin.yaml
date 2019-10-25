@@ -7,7 +7,7 @@ descriptorVersion: 2
 plugin:
   type: blueprint
   id: com.rivetlogic.craftercms.blueprint.companyshowcase
-  name: "Company Showcase"
+  name: Company Showcase
   tags:
     - blueprint
     - company
@@ -19,7 +19,7 @@ plugin:
   description: |
     Company Showcase is a stylish single page Crafter CMS blueprint.
   website:
-    name: "Company Showcase"
+    name: Company Showcase
     url: https://github.com/rivetlogic/craftercms-bp-company-showcase.git
   media:
     screenshots:
