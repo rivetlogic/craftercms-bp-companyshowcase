@@ -15,12 +15,12 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 2
+    patch: 3
   description: |
     Company Showcase is a stylish single page Crafter CMS blueprint.
   website:
     name: Company Showcase
-    url: https://github.com/rivetlogic/craftercms-bp-company-showcase.git
+    url: https://github.com/rivetlogic/craftercms-bp-companyshowcase.git
   media:
     screenshots:
       - title: Welcome Area
