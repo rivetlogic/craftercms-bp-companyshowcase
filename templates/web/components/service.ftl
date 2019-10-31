@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<div class="item service-item" <@studio.componentAttr path=model.storeUrl ice=false /> >
+<div class="item service-item" <@studio.iceAttr component=contentModel/> >
     <div class="icon">
         <i><img src="${model.serviceImage_s}" alt="${model.serviceImageAccessibilityText_s!''}"></i>
     </div>

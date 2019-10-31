@@ -1,17 +1,17 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
-<section class="section" id="frequently-question" <@studio.componentAttr path=model.storeUrl ice=true /> >
+<section class="section" id="frequently-question" <@studio.iceAttr component=contentModel/> >
     <div class="container">
         <!-- ***** Section Title Start ***** -->
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-heading">
-                    <h2>${model.faqHeading_s}</h2>
+                    <h2>${contentModel.faqHeading_s}</h2>
                 </div>
             </div>
             <div class="offset-lg-3 col-lg-6">
                 <div class="section-heading">
-                    <p>${model.faqSubheading_s}</p>
+                    <p>${contentModel.faqSubheading_s}</p>
                 </div>
             </div>
         </div>
@@ -19,16 +19,16 @@
 
         <div class="row">
             <div class="left-text col-lg-6 col-md-6 col-sm-12">
-                <h5>${model.faqContentHeading_s}</h5>
+                <h5>${contentModel.faqContentHeading_s}</h5>
                 <div class="accordion-text">
-                    <p>${model.faqContent_html}</p>
-                    <a href="${model.contactUsButtonUrl_s}" class="main-button">${model.contactUsButtonLabel_s}</a>
+                    <p>${contentModel.faqContent_html}</p>
+                    <a href="${contentModel.contactUsButtonUrl_s}" class="main-button">${contentModel.contactUsButtonLabel_s}</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="accordions is-first-expanded">
-                    <#list model.questions_o.item as question>
-                       <@renderComponent parent=model component=question/>
+                    <#list contentModel.questions_o.item as question>
+                       <@renderComponent parent=contentModel component=question/>
                     </#list>
                 </div>
             </div>

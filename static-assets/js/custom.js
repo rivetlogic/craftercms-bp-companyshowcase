@@ -2,19 +2,19 @@
   "use strict";
 
   $(".owl-carousel").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 30,
     nav: true,
     pagination: true,
     responsive: {
       0: {
-        items: Math.min(1, servicesCount)
+        items: 1
       },
       600: {
-        items: Math.min(2, servicesCount)
+        items: 2
       },
       1000: {
-        items: Math.min(3, servicesCount)
+        items: 3
       }
     },
     merge: true

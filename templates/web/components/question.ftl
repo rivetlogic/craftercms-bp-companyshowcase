@@ -1,5 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<article class="accordion" <@studio.componentAttr path=contentModel.storeUrl ice=false /> >
+<article class="accordion" <@studio.iceAttr component=contentModel/> >
     <div class="accordion-head">
         <span>${contentModel.question_s}</span>
         <span class="icon">

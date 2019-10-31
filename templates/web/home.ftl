@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     
-        <title>${model.title_t!"Home"}</title>
+        <title>${contentModel.title_t!"Home"}</title>
         
             <!-- Additional CSS Files -->
         <link rel="stylesheet" type="text/css" href="static-assets/css/bootstrap.min.css">
@@ -16,18 +16,15 @@
         <link rel="stylesheet" type="text/css" href="static-assets/css/owl-carousel.css">
 	</head>
 	<body>
-        <@renderComponent component=model.preloader_o.item />
+	    <#include "/templates/web/components/preloader.ftl"/>
         
-        <@renderComponent component=model.header_o.item />
+        <@renderComponent component=contentModel.header_o.item />
     
-        <@renderComponent component=model.welcomeArea_o.item />
-        <@renderComponent component=model.primaryAboutUs_o.item />
-        <@renderComponent component=model.secondaryAboutUs_o.item />
-        <@renderComponent component=model.services_o.item />
-        <@renderComponent component=model.frequentlyAskedQuestions_o.item />
-        <@renderComponent component=model.contact_o.item />
+        <#list (contentModel.sections_o.item)![] as section>
+            <@renderComponent parent=contentModel component=section />
+        </#list>
         
-        <@renderComponent component=model.footer_o.item />
+        <@renderComponent component=contentModel.footer_o.item />
         
         <!-- jQuery -->
         <script src="static-assets/js/jquery-2.1.0.min.js"></script>
