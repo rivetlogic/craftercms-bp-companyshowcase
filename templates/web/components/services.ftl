@@ -1,17 +1,10 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<script>
-    <#if (model.services_o.item)??>
-    var servicesCount = ${model.services_o.item?size};
-    <#else>
-    var servicesCount = 0;
-    </#if>
-</script>
-<section class="section" id="services" <@studio.componentAttr path=contentModel.storeUrl ice=true />>
+<section class="section" id="services" <@studio.iceAttr component=contentModel />>
     <div class="container">
         <div class="row">
             <div class="owl-carousel owl-theme">
-            <#list (model.services_o.item)![] as serviceItem>
-                <@renderComponent component=serviceItem />
+            <#list (contentModel.services_o.item)![] as serviceItem>
+                <@renderComponent parent=contentModel component=serviceItem />
             </#list>
             </div>
         </div>

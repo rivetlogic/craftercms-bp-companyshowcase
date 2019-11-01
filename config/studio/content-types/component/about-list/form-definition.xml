@@ -31,7 +31,7 @@
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
-					<type>file-name</type>
+					<type>auto-filename</type>
 					<id>file-name</id>
 					<iceId></iceId>
 					<title>Component ID</title>
@@ -39,21 +39,6 @@
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
 					</properties>
 					<constraints>
 					</constraints>
@@ -107,7 +92,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>aboutItemComponents</value>
+							<value>items</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -129,7 +114,7 @@
 					<constraints>
 						<constraint>
 							<name>allowDuplicates</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[false]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -138,33 +123,13 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>child-content</type>
-					<id>aboutItemComponents</id>
-					<title>About Item Components</title>
+					<type>embedded-content</type>
+					<id>items</id>
+					<title>Items</title>
 					<interface>item</interface>
 					<properties>
 						<property>
-							<name>enableCreateNew</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableBrowseExisting</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>repoPath</name>
-							<value>/site/components/about-item</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>browsePath</name>
-							<value>/site/components/about-item</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>type</name>
+							<name>contentType</name>
 							<value>/component/about-item</value>
 								<type>undefined</type>
 						</property>

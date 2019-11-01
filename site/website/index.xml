@@ -13,52 +13,419 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2019-10-22T20:56:24.618Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-22T20:56:24.618Z</lastModifiedDate_dt>
-	<services_o item-list="true">	<item datasource="serviceComponents">	<key>/site/components/services/company-showcase-services.xml</key>
-	<value>company-showcase-services</value>
-	<include>/site/components/services/company-showcase-services.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></services_o>
+	<lastModifiedDate>2019-10-31T20:43:29.814Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:43:29.814Z</lastModifiedDate_dt>
 	<title_s/>
-	<header_o item-list="true">	<item datasource="headerComponents">	<key>/site/components/headers/company-showcase-header.xml</key>
-	<value>company-showcase-header</value>
-	<include>/site/components/headers/company-showcase-header.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></header_o>
-	<welcomeArea_o item-list="true">	<item datasource="welcomeAreaComponents">	<key>/site/components/welcome-areas/company-showcase-welcome-area.xml</key>
-	<value>company-showcase-welcome-area</value>
-	<include>/site/components/welcome-areas/company-showcase-welcome-area.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></welcomeArea_o>
-	<primaryAboutUs_o item-list="true">	<item datasource="about1Components">	<key>/site/components/about1/company-showcase-about1.xml</key>
-	<value>company-showcase-about1</value>
-	<include>/site/components/about1/company-showcase-about1.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></primaryAboutUs_o>
-	<secondaryAboutUs_o item-list="true">	<item datasource="about2Components">	<key>/site/components/about2/company-showcase-about2.xml</key>
-	<value>company-showcase-about2</value>
-	<include>/site/components/about2/company-showcase-about2.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></secondaryAboutUs_o>
-	<frequentlyAskedQuestions_o item-list="true">	<item datasource="frequentlyAskedQuestionsComponents">	<key>/site/components/frequently-asked-questions/company-showcase-faqs.xml</key>
-	<value>company-showcase-faqs</value>
-	<include>/site/components/frequently-asked-questions/company-showcase-faqs.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></frequentlyAskedQuestions_o>
-	<contact_o item-list="true">	<item datasource="contactComponents">	<key>/site/components/contact/company-showcase-contact.xml</key>
-	<value>company-showcase-contact</value>
-	<include>/site/components/contact/company-showcase-contact.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></contact_o>
-	<footer_o item-list="true">	<item datasource="footerComponents">	<key>/site/components/footer/company-showcase-footer.xml</key>
-	<value>company-showcase-footer </value>
-	<include>/site/components/footer/company-showcase-footer.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></footer_o>
-	<preloader_o item-list="true">	<item datasource="preloaderComponents">	<key>/site/components/preloader/company-showcase-preloader.xml</key>
-	<value>company-showcase-preloader</value>
-	<include>/site/components/preloader/company-showcase-preloader.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></preloader_o>
+	<sections_o item-list="true">	<item datasource="sections" inline="true">	<key>49d04cc2-9625-7538-d69c-30af1364d22a</key>
+	<value>Welcome</value>
+<component id="49d04cc2-9625-7538-d69c-30af1364d22a">
+	<content-type>/component/welcome-area</content-type>
+	<display-template>/templates/web/components/welcome-area.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>49d0</objectGroupId>
+	<objectId>49d04cc2-9625-7538-d69c-30af1364d22a</objectId>
+	<file-name>49d04cc2-9625-7538-d69c-30af1364d22a.xml</file-name>
+	<internal-name>Welcome</internal-name>
+	<welcomeHeading_s>Company Showcase Web Site!</welcomeHeading_s>
+	<welcomeButtonLabel_s>FIND OUT MORE</welcomeButtonLabel_s>
+	<welcomeButtonUrl_s>#about</welcomeButtonUrl_s>
+	<welcomeImageAccessibilityText_s>Welcome Area Picture</welcomeImageAccessibilityText_s>
+	<welcomeImage_s>/static-assets/images/slider-icon.png</welcomeImage_s>
+	<welcomeContent_html>&lt;p&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. Explicabo suscipit ipsa debitis sunt vero.&lt;/p&gt;</welcomeContent_html>
+	<createdDate>2019-10-31T19:58:21.535Z</createdDate>
+	<createdDate_dt>2019-10-31T19:58:21.535Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T19:58:21.535Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T19:58:21.535Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>2e5d53bc-5c48-d721-c57f-13e6d3306ec3</key>
+	<value>Primary About</value>
+<component id="2e5d53bc-5c48-d721-c57f-13e6d3306ec3">
+	<content-type>/component/about1</content-type>
+	<display-template>/templates/web/components/about1.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2e5d</objectGroupId>
+	<objectId>2e5d53bc-5c48-d721-c57f-13e6d3306ec3</objectId>
+	<file-name>2e5d53bc-5c48-d721-c57f-13e6d3306ec3.xml</file-name>
+	<internal-name>Primary About</internal-name>
+	<aboutPrimaryImageAccessibilityText_s>About Us Primary Image</aboutPrimaryImageAccessibilityText_s>
+	<aboutPrimaryButtonLabel_s>DISCOVER MORE</aboutPrimaryButtonLabel_s>
+	<aboutPrimaryButtonUrl_s>#about2</aboutPrimaryButtonUrl_s>
+	<aboutPrimaryImage_s>/static-assets/images/left-image.png</aboutPrimaryImage_s>
+	<aboutPrimaryContent_html>&lt;div class="left-heading" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; outline: 0px; color: #212529; font-family: Roboto, sans-serif; font-size: 16px; background-color: #ffffff;"&gt;
+&lt;h5 style="box-sizing: border-box; margin: 0px 0px 25px; line-height: 40px; font-size: 26px; padding: 0px; border: 0px; outline: 0px; color: #1e1e1e; letter-spacing: 0.5px;"&gt;Vivamus sodales nisi id ante molestie venenatis&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div class="left-text" style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; outline: 0px; color: #212529; font-family: Roboto, sans-serif; font-size: 16px; background-color: #ffffff;"&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 40px; padding: 0px; border: 0px; outline: 0px; line-height: 30px; color: #4a4a4a; letter-spacing: 0.5px;"&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. Duis auctor dolor eu scelerisque vestibulum. Vestibulum lacinia, nisl sit amet tristique condimentum.&lt;br style="box-sizing: border-box;" /&gt;&lt;br style="box-sizing: border-box;" /&gt;Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam euismod, mattis dui a, ultrices nisi.&lt;/p&gt;
+&lt;/div&gt;</aboutPrimaryContent_html>
+	<createdDate>2019-10-31T20:02:53.312Z</createdDate>
+	<createdDate_dt>2019-10-31T20:02:53.312Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:02:53.312Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:02:53.312Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>9e6909fb-3d78-7cd9-0511-25a877a6ba38</key>
+	<value>Secondary About</value>
+<component id="9e6909fb-3d78-7cd9-0511-25a877a6ba38">
+	<content-type>/component/about2</content-type>
+	<display-template>/templates/web/components/about2.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9e69</objectGroupId>
+	<objectId>9e6909fb-3d78-7cd9-0511-25a877a6ba38</objectId>
+	<file-name>9e6909fb-3d78-7cd9-0511-25a877a6ba38.xml</file-name>
+	<internal-name>Secondary About</internal-name>
+	<aboutSecondaryTitle_s>Curabitur aliquam eget tellus id porta</aboutSecondaryTitle_s>
+	<aboutSecondarySubheading_s>Proin justo sapien, posuere suscipit tortor in, fe</aboutSecondarySubheading_s>
+	<aboutSecondaryImageAccessibilityText_s>About 2 Section Image</aboutSecondaryImageAccessibilityText_s>
+	<aboutList_o item-list="true">	<item datasource="aboutList" inline="true">	<key>1c5c1d90-1051-7ce6-ce24-d1d84cb75ff7</key>
+	<value>About List</value>
+<component id="1c5c1d90-1051-7ce6-ce24-d1d84cb75ff7">
+	<content-type>/component/about-list</content-type>
+	<display-template>/templates/web/components/about-item-list.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1c5c</objectGroupId>
+	<objectId>1c5c1d90-1051-7ce6-ce24-d1d84cb75ff7</objectId>
+	<file-name>1c5c1d90-1051-7ce6-ce24-d1d84cb75ff7.xml</file-name>
+	<internal-name>About List</internal-name>
+	<aboutItems_o item-list="true">	<item datasource="items" inline="true">	<key>07a0b711-562f-8fda-62b5-d865ead135cf</key>
+	<value>About 1</value>
+<component id="07a0b711-562f-8fda-62b5-d865ead135cf">
+	<content-type>/component/about-item</content-type>
+	<display-template>/templates/web/components/about-item.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>07a0</objectGroupId>
+	<objectId>07a0b711-562f-8fda-62b5-d865ead135cf</objectId>
+	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-01.png</aboutSecondaryItemImage_s>
+	<file-name>07a0b711-562f-8fda-62b5-d865ead135cf.xml</file-name>
+	<internal-name>About 1</internal-name>
+	<aboutSecondaryItemTitle_s>Nulla ultricies risus quis risus</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 16px; letter-spacing: 0.5px; background-color: #ffffff;"&gt;Debitis ipsum sed doloribus minus saepe voluptatem. Asperiores sunt quidem aut rerum incidunt. Qui accusantium et corporis quia doloremque iusto iste quae.&lt;/span&gt;&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	<createdDate>2019-10-31T20:28:36.168Z</createdDate>
+	<createdDate_dt>2019-10-31T20:28:36.168Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:28:36.168Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:28:36.168Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="items" inline="true">	<key>346c6690-324b-9124-fd83-befc5587cabd</key>
+	<value>About 2</value>
+<component id="346c6690-324b-9124-fd83-befc5587cabd">
+	<content-type>/component/about-item</content-type>
+	<display-template>/templates/web/components/about-item.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>346c</objectGroupId>
+	<objectId>346c6690-324b-9124-fd83-befc5587cabd</objectId>
+	<internal-name>About 2</internal-name>
+	<aboutSecondaryItemTitle_s>Nulla ultricies risus quis risus</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-02.png</aboutSecondaryItemImage_s>
+	<file-name>346c6690-324b-9124-fd83-befc5587cabd.xml</file-name>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. Explicabo suscipit ipsa debitis sunt vero.&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	<createdDate>2019-10-31T20:28:56.582Z</createdDate>
+	<createdDate_dt>2019-10-31T20:28:56.582Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:28:56.582Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:28:56.582Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="items" inline="true">	<key>989b72aa-3c4a-0627-d93e-2c0cea4fba1c</key>
+	<value>About 3</value>
+<component id="989b72aa-3c4a-0627-d93e-2c0cea4fba1c">
+	<content-type>/component/about-item</content-type>
+	<display-template>/templates/web/components/about-item.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>989b</objectGroupId>
+	<objectId>989b72aa-3c4a-0627-d93e-2c0cea4fba1c</objectId>
+	<file-name>989b72aa-3c4a-0627-d93e-2c0cea4fba1c.xml</file-name>
+	<internal-name>About 3</internal-name>
+	<aboutSecondaryItemTitle_s>Sed placerat sollicitudin mauris</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-03.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 16px; letter-spacing: 0.5px; background-color: #ffffff;"&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur.&lt;/span&gt;&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	<createdDate>2019-10-31T20:29:20.903Z</createdDate>
+	<createdDate_dt>2019-10-31T20:29:20.903Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:29:20.903Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:29:20.903Z</lastModifiedDate_dt>
+</component>
+	</item></aboutItems_o>
+	<createdDate>2019-10-31T20:27:54.066Z</createdDate>
+	<createdDate_dt>2019-10-31T20:27:54.066Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:27:54.066Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:27:54.066Z</lastModifiedDate_dt>
+</component>
+	</item></aboutList_o>
+	<aboutSecondaryImage_s>/static-assets/images/right-image.png</aboutSecondaryImage_s>
+	<aboutSecondaryList_o item-list="true">	<item>	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-01.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemTitle_s>Nulla ultricies risus quis risus</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 16px; letter-spacing: 0.5px; background-color: #ffffff;"&gt;Debitis ipsum sed doloribus minus saepe voluptatem. Asperiores sunt quidem aut rerum incidunt. Qui accusantium et corporis quia doloremque iusto iste quae.&lt;/span&gt;&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	</item>	<item>	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-02.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemTitle_s>Donec consequat commodo purus</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur. Explicabo suscipit ipsa debitis sunt vero.&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	</item>	<item>	<aboutSecondaryItemImage_s>/static-assets/images/about-icon-03.png</aboutSecondaryItemImage_s>
+	<aboutSecondaryItemTitle_s>Sed placerat sollicitudin mauris</aboutSecondaryItemTitle_s>
+	<aboutSecondaryItemDescription_html>&lt;p&gt;&lt;span style="color: #4a4a4a; font-family: Roboto, sans-serif; font-size: 16px; letter-spacing: 0.5px; background-color: #ffffff;"&gt;Et minus dolor placeat officiis id omnis dolorem non. Voluptatem qui aperiam sed quasi veritatis tenetur.&lt;/span&gt;&lt;/p&gt;</aboutSecondaryItemDescription_html>
+	</item></aboutSecondaryList_o>
+	<createdDate>2019-10-31T20:03:41.603Z</createdDate>
+	<createdDate_dt>2019-10-31T20:03:41.603Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:27:51.070Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:27:51.070Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>f8231818-c2b6-ef70-a6a6-b7597efa2105</key>
+	<value>Services</value>
+<component id="f8231818-c2b6-ef70-a6a6-b7597efa2105">
+	<content-type>/component/services</content-type>
+	<display-template>/templates/web/components/services.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f823</objectGroupId>
+	<objectId>f8231818-c2b6-ef70-a6a6-b7597efa2105</objectId>
+	<file-name>f8231818-c2b6-ef70-a6a6-b7597efa2105.xml</file-name>
+	<internal-name>Services</internal-name>
+	<services_o item-list="true">	<item datasource="services" inline="true">	<key>02f1b16a-c833-3c67-802d-798f53ea09b6</key>
+	<value>First Service</value>
+<component id="02f1b16a-c833-3c67-802d-798f53ea09b6">
+	<content-type>/component/service</content-type>
+	<display-template>/templates/web/components/service.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>02f1</objectGroupId>
+	<objectId>02f1b16a-c833-3c67-802d-798f53ea09b6</objectId>
+	<file-name>02f1b16a-c833-3c67-802d-798f53ea09b6.xml</file-name>
+	<internal-name>First Service</internal-name>
+	<serviceImageAccessibilityText_s>First Box Service</serviceImageAccessibilityText_s>
+	<serviceTitle_s>First Box Service</serviceTitle_s>
+	<serviceButtonLabel_s>READ MORE</serviceButtonLabel_s>
+	<serviceButtonUrl_s>#</serviceButtonUrl_s>
+	<serviceDescription_t>Hic rerum animi similique at. Eius eveniet consequatur similique sequi illum sed. Quasi qui voluptatem labore velit. Incidunt sint facere voluptatum. Inventore rerum qui distinctio.</serviceDescription_t>
+	<serviceImage_s>/static-assets/images/service-icon-01.png</serviceImage_s>
+	<createdDate>2019-10-31T20:07:05.679Z</createdDate>
+	<createdDate_dt>2019-10-31T20:07:05.679Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:07:05.679Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:07:05.679Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="services" inline="true">	<key>bbc1e749-abce-f050-b7c0-97a86c341245</key>
+	<value>Second Service</value>
+<component id="bbc1e749-abce-f050-b7c0-97a86c341245">
+	<content-type>/component/service</content-type>
+	<display-template>/templates/web/components/service.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bbc1</objectGroupId>
+	<objectId>bbc1e749-abce-f050-b7c0-97a86c341245</objectId>
+	<file-name>bbc1e749-abce-f050-b7c0-97a86c341245.xml</file-name>
+	<internal-name>Second Service</internal-name>
+	<serviceImageAccessibilityText_s>Second Box</serviceImageAccessibilityText_s>
+	<serviceTitle_s>Second Box</serviceTitle_s>
+	<serviceButtonLabel_s>DISCOVER MORE</serviceButtonLabel_s>
+	<serviceButtonUrl_s>#</serviceButtonUrl_s>
+	<serviceDescription_t>Voluptates suscipit ut accusantium dolor fuga libero officia in. In provident alias corporis accusantium sunt est. Voluptatem ut hic nulla et. Aut voluptas earum doloremque excepturi autem nihil nam. Dolores magni consequatur ut fugit. Est aspernatur neque nihil.</serviceDescription_t>
+	<serviceImage_s>/static-assets/images/service-icon-02.png</serviceImage_s>
+	<createdDate>2019-10-31T20:08:03.510Z</createdDate>
+	<createdDate_dt>2019-10-31T20:08:03.510Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:08:03.510Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:08:03.510Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="services" inline="true">	<key>89f0ff8e-ce52-f291-60dc-7512fd326497</key>
+	<value>Third Service</value>
+<component id="89f0ff8e-ce52-f291-60dc-7512fd326497">
+	<content-type>/component/service</content-type>
+	<display-template>/templates/web/components/service.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>89f0</objectGroupId>
+	<objectId>89f0ff8e-ce52-f291-60dc-7512fd326497</objectId>
+	<internal-name>Third Service</internal-name>
+	<serviceImageAccessibilityText_s/>
+	<serviceTitle_s>Third Title Box</serviceTitle_s>
+	<serviceButtonLabel_s>MORE DETAIL</serviceButtonLabel_s>
+	<serviceButtonUrl_s>#</serviceButtonUrl_s>
+	<serviceDescription_t>Dolores ipsa harum rerum. Esse quia non porro quos fuga. Libero est quis sed reprehenderit cupiditate dicta illo quibusdam. Omnis laborum vel unde. Pariatur minima quos voluptatem commodi enim reiciendis quidem.</serviceDescription_t>
+	<serviceImage_s>/static-assets/images/about-icon-03.png</serviceImage_s>
+	<file-name>89f0ff8e-ce52-f291-60dc-7512fd326497.xml</file-name>
+	<createdDate>2019-10-31T20:08:41.690Z</createdDate>
+	<createdDate_dt>2019-10-31T20:08:41.690Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:08:41.690Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:08:41.690Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="services" inline="true">	<key>86b422e6-d525-899b-a13e-3c98dfb03f45</key>
+	<value>Fourth Service</value>
+<component id="86b422e6-d525-899b-a13e-3c98dfb03f45">
+	<content-type>/component/service</content-type>
+	<display-template>/templates/web/components/service.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>86b4</objectGroupId>
+	<objectId>86b422e6-d525-899b-a13e-3c98dfb03f45</objectId>
+	<file-name>86b422e6-d525-899b-a13e-3c98dfb03f45.xml</file-name>
+	<internal-name>Fourth Service</internal-name>
+	<serviceImageAccessibilityText_s/>
+	<serviceTitle_s>Fourth Service Box</serviceTitle_s>
+	<serviceButtonLabel_s>READ MORE</serviceButtonLabel_s>
+	<serviceButtonUrl_s>#</serviceButtonUrl_s>
+	<serviceDescription_t>Nostrum blanditiis consequatur repellendus earum minus. Et sed est aperiam tempore. Nihil minus voluptas nulla quo quia omnis voluptas at. Qui corrupti et qui sunt accusamus.</serviceDescription_t>
+	<serviceImage_s>/static-assets/images/service-icon-02.png</serviceImage_s>
+	<createdDate>2019-10-31T20:09:25.748Z</createdDate>
+	<createdDate_dt>2019-10-31T20:09:25.748Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:09:25.748Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:09:25.748Z</lastModifiedDate_dt>
+</component>
+	</item></services_o>
+	<createdDate>2019-10-31T20:06:58.417Z</createdDate>
+	<createdDate_dt>2019-10-31T20:06:58.417Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:06:58.417Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:06:58.417Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>6649f3e5-ab7c-3e99-bc09-f117bb118aa7</key>
+	<value>Frequently Asked Questions</value>
+<component id="6649f3e5-ab7c-3e99-bc09-f117bb118aa7">
+	<content-type>/component/frequently-asked-questions</content-type>
+	<display-template>/templates/web/components/frequently-asked-questions.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6649</objectGroupId>
+	<objectId>6649f3e5-ab7c-3e99-bc09-f117bb118aa7</objectId>
+	<file-name>6649f3e5-ab7c-3e99-bc09-f117bb118aa7.xml</file-name>
+	<internal-name>Frequently Asked Questions</internal-name>
+	<faqHeading_s>Frequently Asked Questions</faqHeading_s>
+	<faqSubheading_s>Vivamus venenatis eu mi ac mattis. Maecenas ut ele</faqSubheading_s>
+	<faqContentHeading_s>Class aptent taciti sociosqu ad litora torquent pe</faqContentHeading_s>
+	<contactUsButtonLabel_s>CONTACT US</contactUsButtonLabel_s>
+	<contactUsButtonUrl_s>#contact-us</contactUsButtonUrl_s>
+	<questions_o item-list="true">	<item datasource="questions" inline="true">	<key>b8946052-43d6-788c-f9b8-32322ae7b4e9</key>
+	<value>Question 1</value>
+<component id="b8946052-43d6-788c-f9b8-32322ae7b4e9">
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b894</objectGroupId>
+	<objectId>b8946052-43d6-788c-f9b8-32322ae7b4e9</objectId>
+	<internal-name>Question 1</internal-name>
+	<question_s>First Common Question</question_s>
+	<file-name>b8946052-43d6-788c-f9b8-32322ae7b4e9.xml</file-name>
+	<answer_html>&lt;p&gt;Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.&lt;br /&gt;&lt;br /&gt;Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-31T20:16:21.503Z</createdDate>
+	<createdDate_dt>2019-10-31T20:16:21.503Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:16:21.503Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:16:21.503Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="questions" inline="true">	<key>814ff7f4-ee36-31d0-e6fe-69617a5fd789</key>
+	<value>Question 2</value>
+<component id="814ff7f4-ee36-31d0-e6fe-69617a5fd789">
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>814f</objectGroupId>
+	<objectId>814ff7f4-ee36-31d0-e6fe-69617a5fd789</objectId>
+	<file-name>814ff7f4-ee36-31d0-e6fe-69617a5fd789.xml</file-name>
+	<internal-name>Question 2</internal-name>
+	<question_s>Second Question Answer</question_s>
+	<answer_html>&lt;p&gt;Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.&lt;br /&gt;&lt;br /&gt;Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-31T20:17:02.999Z</createdDate>
+	<createdDate_dt>2019-10-31T20:17:02.999Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:17:25.129Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:17:25.129Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="questions" inline="true">	<key>ed2e571d-e32f-0ee8-cb29-e6f4b6a2b695</key>
+	<value>Question 3</value>
+<component id="ed2e571d-e32f-0ee8-cb29-e6f4b6a2b695">
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ed2e</objectGroupId>
+	<objectId>ed2e571d-e32f-0ee8-cb29-e6f4b6a2b695</objectId>
+	<file-name>ed2e571d-e32f-0ee8-cb29-e6f4b6a2b695.xml</file-name>
+	<internal-name>Question 3</internal-name>
+	<question_s>Third Answer for you</question_s>
+	<answer_html>&lt;p&gt;Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim.&lt;br /&gt;&lt;br /&gt;Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-31T20:17:39.212Z</createdDate>
+	<createdDate_dt>2019-10-31T20:17:39.212Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:17:39.212Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:17:39.212Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="questions" inline="true">	<key>f76ac967-6ae2-6ef1-1b8b-7609f71fd4e3</key>
+	<value>Question 4</value>
+<component id="f76ac967-6ae2-6ef1-1b8b-7609f71fd4e3">
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f76a</objectGroupId>
+	<objectId>f76ac967-6ae2-6ef1-1b8b-7609f71fd4e3</objectId>
+	<file-name>f76ac967-6ae2-6ef1-1b8b-7609f71fd4e3.xml</file-name>
+	<internal-name>Question 4</internal-name>
+	<question_s>Fourth Question Asked</question_s>
+	<answer_html>&lt;p&gt;Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim.&lt;br /&gt;&lt;br /&gt;Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-31T20:17:59.655Z</createdDate>
+	<createdDate_dt>2019-10-31T20:17:59.655Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:17:59.655Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:17:59.655Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="questions" inline="true">	<key>16a3302a-dd0a-6d8a-b717-80e4793796af</key>
+	<value>Question 5</value>
+<component id="16a3302a-dd0a-6d8a-b717-80e4793796af">
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>16a3</objectGroupId>
+	<objectId>16a3302a-dd0a-6d8a-b717-80e4793796af</objectId>
+	<file-name>16a3302a-dd0a-6d8a-b717-80e4793796af.xml</file-name>
+	<internal-name>Question 5</internal-name>
+	<question_s> Fifth Ever Question</question_s>
+	<answer_html>&lt;p&gt;Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis, fermentum nec ante.&lt;br /&gt;&lt;br /&gt;Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod eu.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-31T20:18:11.728Z</createdDate>
+	<createdDate_dt>2019-10-31T20:18:11.728Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:18:11.728Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:18:11.728Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="questions" inline="true">	<key>93c85bc3-480a-56f5-ac55-2d8d56495308</key>
+	<value>Question 6</value>
+<component id="93c85bc3-480a-56f5-ac55-2d8d56495308">
+	<content-type>/component/question</content-type>
+	<display-template>/templates/web/components/question.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>93c8</objectGroupId>
+	<objectId>93c85bc3-480a-56f5-ac55-2d8d56495308</objectId>
+	<file-name>93c85bc3-480a-56f5-ac55-2d8d56495308.xml</file-name>
+	<internal-name>Question 6</internal-name>
+	<question_s>Sixth Sense Question</question_s>
+	<answer_html>&lt;p&gt;Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.&lt;/p&gt;</answer_html>
+	<createdDate>2019-10-31T20:18:55.027Z</createdDate>
+	<createdDate_dt>2019-10-31T20:18:55.027Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:18:55.027Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:18:55.027Z</lastModifiedDate_dt>
+</component>
+	</item></questions_o>
+	<faqContent_html>&lt;p style="box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; line-height: 30px; color: #4a4a4a; letter-spacing: 0.5px; font-family: Roboto, sans-serif; background-color: #ffffff;"&gt;Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; line-height: 30px; color: #4a4a4a; letter-spacing: 0.5px; font-family: Roboto, sans-serif; background-color: #ffffff;"&gt;Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non tincidunt dui. Lorem ipsum dolor sit amet.&lt;/p&gt;
+&lt;p&gt;&lt;span style="box-sizing: border-box; margin: 0px 0px 50px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; color: #4a4a4a; display: block; font-family: Roboto, sans-serif; background-color: #ffffff;"&gt;Email:&amp;nbsp;&lt;a style="box-sizing: border-box; color: #007bff; background-color: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; text-decoration-line: none !important;" href="#templates/templatemo_537_art_factory/#"&gt;email@company.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;</faqContent_html>
+	<createdDate>2019-10-31T20:15:38.194Z</createdDate>
+	<createdDate_dt>2019-10-31T20:15:38.194Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:15:38.194Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:15:38.194Z</lastModifiedDate_dt>
+</component>
+	</item>	<item datasource="sections" inline="true">	<key>0cabc669-6491-8d44-c9bb-221a0ba186d2</key>
+	<value>Contact</value>
+<component id="0cabc669-6491-8d44-c9bb-221a0ba186d2">
+	<content-type>/component/contact</content-type>
+	<display-template>/templates/web/components/contact.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0cab</objectGroupId>
+	<objectId>0cabc669-6491-8d44-c9bb-221a0ba186d2</objectId>
+	<file-name>0cabc669-6491-8d44-c9bb-221a0ba186d2.xml</file-name>
+	<internal-name>Contact</internal-name>
+	<mapLatitude_s>40.780866</mapLatitude_s>
+	<mapLongitude_s>-73.9821446</mapLongitude_s>
+	<sendMessageButtonLabel_s>SEND IT</sendMessageButtonLabel_s>
+	<sendMessageButtonUrl_s>#</sendMessageButtonUrl_s>
+	<createdDate>2019-10-31T20:21:37.303Z</createdDate>
+	<createdDate_dt>2019-10-31T20:21:37.303Z</createdDate_dt>
+	<lastModifiedDate>2019-10-31T20:21:37.303Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-31T20:21:37.303Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
 </page>
