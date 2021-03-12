@@ -15,7 +15,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 16
+    patch: 17
   description: |
     Company Showcase is a stylish single page Crafter CMS blueprint.
   website:
@@ -53,39 +53,6 @@ plugin:
     name: MIT
     url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
-    - major: 3
-      minor: 1
-      patch: 4
-    - major: 3
-      minor: 1
-      patch: 5
-    - major: 3
-      minor: 1
-      patch: 6
-    - major: 3
-      minor: 1
-      patch: 7
-    - major: 3
-      minor: 1
-      patch: 8
-    - major: 3
-      minor: 1
-      patch: 9
-    - major: 3
-      minor: 1
-      patch: 10
-    - major: 3
-      minor: 1
-      patch: 11
-    - major: 3
-      minor: 1
-      patch: 12
-    - major: 3
-      minor: 1
-      patch: 13
-    - major: 3
-      minor: 1
-      patch: 14
     - major: 3
       minor: 2
       patch: 0
