@@ -1,8 +1,15 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
-<li <@studio.iceAttr component=contentModel/> >
-    <img src="${model.aboutSecondaryItemImage_s}" alt="">
-    <div class="text">
-        <h6>${model.aboutSecondaryItemTitle_s}</h6>
-        <p>${model.aboutSecondaryItemDescription_html}</p>
-    </div>
-</li>
+<#import "/templates/system/common/ice.ftl" as studio />
+
+<@studio.img
+  $field="aboutSecondaryItemImage_s"
+  src=(contentModel.aboutSecondaryItemImage_s)
+  alt=""
+/>
+<div class="text">
+  <@studio.h6 $field="aboutSecondaryItemTitle_s">
+    ${model.aboutSecondaryItemTitle_s}
+  </@studio.h6>
+  <@studio.span $field="aboutSecondaryItemDescription_html">
+    ${model.aboutSecondaryItemDescription_html}
+  </@studio.span>
+</div>

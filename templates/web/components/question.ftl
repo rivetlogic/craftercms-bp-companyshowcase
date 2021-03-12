@@ -1,14 +1,17 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
-<article class="accordion" <@studio.iceAttr component=contentModel/> >
-    <div class="accordion-head">
-        <span>${contentModel.question_s}</span>
-        <span class="icon">
-            <i class="icon fa fa-chevron-right"></i>
-        </span>
-    </div>
-    <div class="accordion-body">
-        <div class="content">
-            ${contentModel.answer_html}
-        </div>
-    </div>
-</article>
+<#import "/templates/system/common/ice.ftl" as studio />
+
+<@studio.componentRootTag $tag="article" class="accordion">
+  <div class="accordion-head">
+    <@studio.span $field="question_s">
+      ${contentModel.question_s}
+    </@studio.span>
+    <span class="icon">
+      <i class="icon fa fa-chevron-right"></i>
+    </span>
+  </div>
+  <div class="accordion-body">
+    <@studio.tag $field="answer_html" class="content">
+      ${contentModel.answer_html}
+    </@studio.tag>
+  </div>
+</@studio.componentRootTag>
