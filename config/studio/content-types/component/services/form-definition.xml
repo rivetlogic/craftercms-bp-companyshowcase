@@ -149,15 +149,50 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>embedded-content</type>
+					<type>dropTargets</type>
 					<id>services</id>
 					<title>Services</title>
 					<interface>item</interface>
 					<properties>
 						<property>
-							<name>contentType</name>
-							<value>/component/service/</value>
-								<type>undefined</type>
+							<name>allowShared</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>allowEmbedded</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>baseRepositoryPath</name>
+							<value>/site/components</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>baseBrowsePath</name>
+							<value>/site/components</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>contentTypes</name>
+							<value>/component/service</value>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
