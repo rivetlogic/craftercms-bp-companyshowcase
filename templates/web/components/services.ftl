@@ -2,11 +2,14 @@
 <section class="section" id="services">
   <div class="container">
     <div class="row">
-      <div class="owl-carousel owl-theme">
+      <@studio.tag $field="services_o" class="owl-carousel owl-theme">
         <#list (contentModel.services_o.item)![] as serviceItem>
-          <@renderComponent parent=contentModel component=serviceItem />
+          <#assign index = serviceItem?index />
+          <@studio.tag $field="services_o" $index=index>
+            <@renderComponent parent=contentModel component=serviceItem />
+          </@studio.tag>
         </#list>
-      </div>
+      </@studio.tag>
     </div>
   </div>
 </section>

@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
-<@studio.componentRootTag $tag="div" class="item service-item">
+<div class="item service-item">
   <div class="icon">
     <i>
       <@studio.img
@@ -17,4 +17,4 @@
     ${model.serviceDescription_t}
   </@studio.p>
   <a href="${model.serviceButtonUrl_s}" class="main-button">${model.serviceButtonLabel_s}</a>
-</@studio.componentRootTag>
+</div>

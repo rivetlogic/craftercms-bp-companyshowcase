@@ -20,9 +20,14 @@
 
     <@renderComponent component=contentModel.header_o.item />
 
-    <#list (contentModel.sections_o.item)![] as section>
-      <@renderComponent parent=contentModel component=section />
-    </#list>
+    <@studio.tag $field="sections_o">
+      <#list (contentModel.sections_o.item)![] as section>
+        <#assign index = section?index />
+        <@studio.tag $field="sections_o" $index=index>
+          <@renderComponent parent=contentModel component=section />
+        </@studio.tag>
+      </#list>
+    </@studio.tag>
 
     <@renderComponent component=contentModel.footer_o.item />
 
