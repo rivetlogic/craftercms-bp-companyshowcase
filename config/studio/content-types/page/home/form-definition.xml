@@ -259,7 +259,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/about1,/component/about2,/component/about-item,/component/about-list,/component/footer,/component/contact,/component/frequently-asked-questions,/component/header,/component/question,/component/service,/component/social-button,/component/services,/component/welcome-area</value>
+							<value>/component/about1,/component/about2,/component/footer,/component/contact,/component/frequently-asked-questions,/component/header,/component/services,/component/welcome-area</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
