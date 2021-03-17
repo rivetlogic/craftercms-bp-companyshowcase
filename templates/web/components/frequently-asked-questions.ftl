@@ -37,9 +37,7 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="accordions is-first-expanded">
-          <#list contentModel.questions_o.item as question>
-            <@renderComponent parent=contentModel component=question/>
-          </#list>
+          <@studio.renderComponentCollection $field="questions_o" />
         </div>
       </div>
     </div>
