@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,6 +44,11 @@
     <script src="static-assets/js/waypoints.min.js"></script>
     <script src="static-assets/js/jquery.counterup.min.js"></script>
     <script src="static-assets/js/imgfix.min.js"></script>
+
+    <script src="https://unpkg.com/rxjs@6.6.0/bundles/rxjs.umd.min.js"></script>
+    <script src="/static-assets/js/craftercms-sdk/utils/utils.umd.min.js"></script>
+    <script src="/static-assets/js/craftercms-sdk/classes/classes.umd.min.js"></script>
+    <script src="/static-assets/js/craftercms-sdk/content/content.umd.min.js"></script>
 
     <!-- Global Init -->
     <script src="static-assets/js/custom.js"></script>
