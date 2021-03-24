@@ -166,10 +166,9 @@
 
     craftercms.guest?.contentController?.operations$
       .pipe(
-        operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION')
+        operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION' && op.args.contentType.id === '/component/service')
       )
       .subscribe((op) => {
-
         craftercms.guest.fromTopic('INSERT_OPERATION_COMPLETE')
           .pipe(
             operators.filter(({payload}) => payload.modelId === op.args.modelId)
