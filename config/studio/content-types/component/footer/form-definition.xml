@@ -196,35 +196,50 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>shared-content</type>
+					<type>dropTargets</type>
 					<id>socialButtonComponents</id>
 					<title>Social Button Components</title>
 					<interface>item</interface>
 					<properties>
 						<property>
-							<name>enableCreateNew</name>
+							<name>allowShared</name>
 							<value>true</value>
-								<type>undefined</type>
+								<type>boolean</type>
 						</property>
 						<property>
-							<name>enableBrowseExisting</name>
+							<name>allowEmbedded</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
 							<value>true</value>
-								<type>undefined</type>
+								<type>boolean</type>
 						</property>
 						<property>
-							<name>repoPath</name>
+							<name>baseRepositoryPath</name>
 							<value>/site/components/social-button</value>
-								<type>undefined</type>
+								<type>string</type>
 						</property>
 						<property>
-							<name>browsePath</name>
+							<name>baseBrowsePath</name>
 							<value>/site/components/social-button</value>
-								<type>undefined</type>
+								<type>string</type>
 						</property>
 						<property>
-							<name>type</name>
+							<name>contentTypes</name>
 							<value>/component/social-button</value>
-								<type>undefined</type>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>

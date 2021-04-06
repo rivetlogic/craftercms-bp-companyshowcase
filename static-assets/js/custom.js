@@ -1,5 +1,33 @@
-(function($) {
-  "use strict";
+(function ($, { content }, { operators }) {
+
+  function isAuthoring() {
+    const html = document.documentElement;
+    const attr = html.getAttribute('data-craftercms-preview');
+
+    return (
+      attr === '${modePreview?c}' || // Otherwise disable/enable if you want to see pencils in dev server.
+      attr === 'true'
+    );
+  }
+
+  function getICE(model, fieldId, index) {
+
+    const iceAttrs = craftercms.guest.getICEAttributes({
+      model,
+      isAuthoring: isAuthoring(),
+      ...(
+        fieldId
+          ? {fieldId}
+          : {}
+      ),
+      ...(
+        index || index === 0
+          ? {index}
+          : {}
+      )
+    });
+    return iceAttrs;
+  }
 
   $(".owl-carousel").owlCarousel({
     loop: false,
@@ -20,7 +48,35 @@
     merge: true
   });
 
-  $(window).scroll(function() {
+  content.getItem(
+    '/site/website/index.xml'
+  ).pipe(
+    operators.map(content.parseDescriptor)
+  ).subscribe((model) => {
+    const servicesModels = model.sections_o?.filter(section => section.services_o);
+
+    servicesModels.forEach(model => {
+      const modelId = model.craftercms.id;
+      const modelICE = getICE(model, 'services_o');
+      const $container = $(`[model-id="${modelId}"] .owl-stage`);
+      const $elements = $container.find('.owl-item');
+
+      Object.keys(modelICE).forEach(key => {
+        $container.attr(key, modelICE[key]);
+      });
+
+      $elements.each((index, element) => {
+        const elementICE = getICE(model, 'services_o', index);
+
+        Object.keys(elementICE).forEach(key => {
+          const value = elementICE[key];
+          $(element).attr(key, value);
+        });
+      });
+    });
+  });
+
+  $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     var box = $(".header-text").height();
     var header = $("header").height();
@@ -33,7 +89,7 @@
   });
 
   // Mobile menu dropdown
-  $(".submenu").on("click", function() {
+  $(".submenu").on("click", function () {
     var width = $(window).width();
     if (width < 992) {
       $(".submenu ul").toggleClass("active");
@@ -45,17 +101,17 @@
 
   // Menu Dropdown Toggle
   if ($(".menu-trigger").length) {
-    $(".menu-trigger").on("click", function() {
+    $(".menu-trigger").on("click", function () {
       $(this).toggleClass("active");
       $(".header-area .nav").slideToggle(200);
     });
   }
 
   // Menu elevator animation
-  $("a[href*=\\#]:not([href=\\#])").on("click", function() {
+  $("a[href*=\\#]:not([href=\\#])").on("click", function () {
     if (
       location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") &&
+      this.pathname.replace(/^\//, "") &&
       location.hostname == this.hostname
     ) {
       var target = $(this.hash);
@@ -77,15 +133,15 @@
     }
   });
 
-  $(document).ready(function() {
+  $(document).ready(function () {
     $(document).on("scroll", onScroll);
 
     //smoothscroll
-    $('a[href^="#"]').on("click", function(e) {
+    $('a[href^="#"]').on("click", function (e) {
       e.preventDefault();
       $(document).off("scroll");
 
-      $("a").each(function() {
+      $("a").each(function () {
         $(this).removeClass("active");
       });
       $(this).addClass("active");
@@ -101,17 +157,31 @@
           },
           500,
           "swing",
-          function() {
+          function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
           }
         );
     });
+
+    craftercms.guest?.contentController?.operations$
+      .pipe(
+        operators.filter(op => op.type === 'INSERT_COMPONENT_OPERATION' && op.args.contentType.id === '/component/service')
+      )
+      .subscribe((op) => {
+        craftercms.guest.fromTopic('INSERT_OPERATION_COMPLETE')
+          .pipe(
+            operators.filter(({payload}) => payload.modelId === op.args.modelId)
+          )
+          .subscribe(() => {
+            document.location.reload();
+          })
+      });
   });
 
   function onScroll(event) {
     var scrollPos = $(document).scrollTop();
-    $(".nav a").each(function() {
+    $(".nav a").each(function () {
       var currLink = $(this);
 
       try {
@@ -139,7 +209,7 @@
       toggle: false
     },
 
-    openAccordion: function(toggle, content) {
+    openAccordion: function (toggle, content) {
       if (content.children.length) {
         toggle.classList.add("is-open");
         let final_height = Math.floor(content.children[0].offsetHeight);
@@ -147,12 +217,12 @@
       }
     },
 
-    closeAccordion: function(toggle, content) {
+    closeAccordion: function (toggle, content) {
       toggle.classList.remove("is-open");
       content.style.height = 0;
     },
 
-    init: function(el) {
+    init: function (el) {
       const _this = this;
 
       // Override default settings with classes
@@ -171,7 +241,7 @@
         const content = all_contents[i];
 
         // Click behavior
-        toggle.addEventListener("click", function(e) {
+        toggle.addEventListener("click", function (e) {
           if (!is_toggle) {
             // Hide all content areas first
             for (let a = 0; a < all_contents.length; a++) {
@@ -198,7 +268,7 @@
     }
   };
 
-  (function() {
+  (function () {
     // Initiate all instances on the page
     const accordions = document.getElementsByClassName("accordions");
     for (let i = 0; i < accordions.length; i++) {
@@ -220,7 +290,7 @@
   }
 
   // Page loading animation
-  $(window).on("load", function() {
+  $(window).on("load", function () {
     if ($(".cover").length) {
       $(".cover").parallax({
         imageSrc: $(".cover").data("image"),
@@ -233,8 +303,8 @@
         opacity: "0"
       },
       600,
-      function() {
-        setTimeout(function() {
+      function () {
+        setTimeout(function () {
           $("#preloader")
             .css("visibility", "hidden")
             .fadeOut();
@@ -242,4 +312,4 @@
       }
     );
   });
-})(window.jQuery);
+})(window.jQuery, craftercms, rxjs);

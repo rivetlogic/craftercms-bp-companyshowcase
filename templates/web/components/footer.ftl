@@ -1,18 +1,18 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
-<footer <@studio.componentAttr path=model.storeUrl ice=true /> >
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12 col-sm-12">
-                ${model.brandCopyright_html}
-            </div>
-            <div class="col-lg-5 col-md-12 col-sm-12">
-                <ul class="social">
-                    <#list model.socialButtons_o.item as socialButton>
-	                    <@renderComponent component=socialButton />
-                    </#list>
-                </ul>
-            </div>
-        </div>
+<@studio.componentRootTag $tag="footer">
+  <div class="container">
+    <div class="row">
+      <@studio.tag $field="brandCopyright_html" class="col-lg-7 col-md-12 col-sm-12">
+        ${model.brandCopyright_html}
+      </@studio.tag>
+      <div class="col-lg-5 col-md-12 col-sm-12">
+        <ul class="social">
+          <#list model.socialButtons_o.item as socialButton>
+            <@renderComponent component=socialButton />
+          </#list>
+        </ul>
+      </div>
     </div>
-</footer>
+  </div>
+</@studio.componentRootTag>

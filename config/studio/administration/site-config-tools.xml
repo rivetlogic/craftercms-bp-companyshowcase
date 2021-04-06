@@ -166,6 +166,12 @@
             </control>
          </controls>
          <datasources>
+             <datasource> 
+                <name>dropTargets</name>  
+                <icon> 
+                    <class>fa-object-group</class> 
+                </icon> 
+            </datasource>  
             <datasource>
                <name>child-content</name>
                <icon>
