@@ -187,6 +187,12 @@
                </icon>
             </datasource>
             <datasource>
+               <name>child-content</name>
+               <icon>
+                  <class>fa-child</class>
+               </icon>
+            </datasource>
+            <datasource>
                <name>shared-content</name>
                <icon>
                   <class>fa-share-alt</class>
