@@ -1,15 +1,15 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@studio.componentRootTag $tag="header" class="header-area header-sticky">
+<@crafter.componentRootTag $tag="header" class="header-area header-sticky">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
           <a href="${model.brandNameUrl_s!"#"}" class="logo">
-            <@studio.span $field="brandName_s">
+            <@crafter.span $field="brandName_s">
               ${model.brandName_s}
-            </@studio.span>
+            </@crafter.span>
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
@@ -29,4 +29,4 @@
       </div>
     </div>
   </div>
-</@studio.componentRootTag>
+</@crafter.componentRootTag>

@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <section id="frequently-question">
   <div class="container">
@@ -6,16 +6,16 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="section-heading">
-          <@studio.h2 $field="faqHeading_s">
+          <@crafter.h2 $field="faqHeading_s">
             ${contentModel.faqHeading_s}
-          </@studio.h2>
+          </@crafter.h2>
         </div>
       </div>
       <div class="offset-lg-3 col-lg-6">
         <div class="section-heading">
-          <@studio.p $field="faqSubheading_s">
+          <@crafter.p $field="faqSubheading_s">
             ${contentModel.faqSubheading_s}
-          </@studio.p>
+          </@crafter.p>
         </div>
       </div>
     </div>
@@ -23,13 +23,13 @@
 
     <div class="row">
       <div class="left-text col-lg-6 col-md-6 col-sm-12">
-        <@studio.h5 $field="faqContentHeading_s">
+        <@crafter.h5 $field="faqContentHeading_s">
           ${contentModel.faqContentHeading_s}
-        </@studio.h5>
+        </@crafter.h5>
         <div class="accordion-text">
-          <@studio.tag $field="faqContent_html">
+          <@crafter.tag $field="faqContent_html">
             ${contentModel.faqContent_html}
-          </@studio.tag>
+          </@crafter.tag>
           <a href="${contentModel.contactUsButtonUrl_s}" class="main-button">
             ${contentModel.contactUsButtonLabel_s}
           </a>
@@ -37,7 +37,7 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="accordions is-first-expanded">
-          <@studio.renderComponentCollection $field="questions_o" />
+          <@crafter.renderComponentCollection $field="questions_o" />
         </div>
       </div>
     </div>

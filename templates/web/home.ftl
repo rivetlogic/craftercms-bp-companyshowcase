@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
 <html lang="en" data-craftercms-preview="${modePreview?c}">
@@ -14,20 +14,22 @@
     <link rel="stylesheet" type="text/css" href="static-assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="static-assets/css/company-showcase.css">
     <link rel="stylesheet" type="text/css" href="static-assets/css/owl-carousel.css">
+    <@crafter.head/>
   </head>
   <body>
+    <@crafter.body_top/>
     <#include "/templates/web/components/preloader.ftl"/>
 
     <@renderComponent component=contentModel.header_o.item />
 
-    <@studio.tag $field="sections_o">
+    <@crafter.tag $field="sections_o">
       <#list (contentModel.sections_o.item)![] as section>
         <#assign index = section?index />
-        <@studio.tag $field="sections_o" $index=index>
+        <@crafter.tag $field="sections_o" $index=index>
           <@renderComponent parent=contentModel component=section />
-        </@studio.tag>
+        </@crafter.tag>
       </#list>
-    </@studio.tag>
+    </@crafter.tag>
 
     <@renderComponent component=contentModel.footer_o.item />
 
@@ -53,6 +55,6 @@
     <!-- Global Init -->
     <script src="static-assets/js/custom.js"></script>
 
-    <@studio.initPageBuilder/>
+    <@crafter.body_bottom/>
   </body>
 </html>
