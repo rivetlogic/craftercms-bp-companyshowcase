@@ -10,8 +10,8 @@
     </span>
   </div>
   <div class="accordion-body">
-    <@crafter.tag $field="answer_html" class="content">
+    <@crafter.div $field="answer_html" class="content">
       ${contentModel.answer_html}
-    </@crafter.tag>
+    </@crafter.div>
   </div>
 </@crafter.componentRootTag>
