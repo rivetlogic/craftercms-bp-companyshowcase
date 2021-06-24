@@ -27,9 +27,9 @@
           ${contentModel.faqContentHeading_s}
         </@crafter.h5>
         <div class="accordion-text">
-          <@crafter.tag $field="faqContent_html">
+          <@crafter.div $field="faqContent_html">
             ${contentModel.faqContent_html}
-          </@crafter.tag>
+          </@crafter.div>
           <a href="${contentModel.contactUsButtonUrl_s}" class="main-button">
             ${contentModel.contactUsButtonLabel_s}
           </a>

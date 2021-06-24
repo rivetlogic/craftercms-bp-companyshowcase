@@ -11,9 +11,9 @@
           <@crafter.h1 $field="welcomeHeading_s">
             ${model.welcomeHeading_s}
           </@crafter.h1>
-          <@crafter.tag $field="welcomeContent_html">
+          <@crafter.div $field="welcomeContent_html">
             ${model.welcomeContent_html}
-          </@crafter.tag>
+          </@crafter.div>
 
           <a href="${model.welcomeButtonUrl_s}" class="main-button-slider">
             ${model.welcomeButtonLabel_s}

@@ -22,14 +22,14 @@
 
     <@renderComponent component=contentModel.header_o.item />
 
-    <@crafter.tag $field="sections_o">
+    <@crafter.div $field="sections_o">
       <#list (contentModel.sections_o.item)![] as section>
         <#assign index = section?index />
-        <@crafter.tag $field="sections_o" $index=index>
+        <@crafter.div $field="sections_o" $index=index>
           <@renderComponent parent=contentModel component=section />
-        </@crafter.tag>
+        </@crafter.div>
       </#list>
-    </@crafter.tag>
+    </@crafter.div>
 
     <@renderComponent component=contentModel.footer_o.item />
 
