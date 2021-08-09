@@ -15,7 +15,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 21
+    patch: 22
   description: |
     Company Showcase is a stylish single page Crafter CMS blueprint.
   website:
@@ -95,6 +95,12 @@ plugin:
     - major: 3
       minor: 1
       patch: 17
+    - major: 3
+      minor: 1
+      patch: 18
+    - major: 3
+      minor: 1
+      patch: 19
   crafterCmsEditions:
     - community
     - enterprise
