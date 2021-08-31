@@ -206,6 +206,7 @@
          <!-- <delete-required/> -->
          <!-- <bulk-publish-required/> -->
          <!-- <publish-by-commit-required/> -->
+         <!-- <publish-required/> -->
       </comments>
    </publishing>
 </site-config>
