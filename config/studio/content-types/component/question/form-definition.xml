@@ -115,7 +115,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
+					<type>rte</type>
 					<id>answer_html</id>
 					<iceId></iceId>
 					<title>Answer</title>
