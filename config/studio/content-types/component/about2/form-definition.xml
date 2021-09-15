@@ -318,7 +318,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
+					<type>rte</type>
 					<id>aboutSecondaryItemDescription_html</id>
 					<iceId></iceId>
 					<title>About Secondary Item Description</title>

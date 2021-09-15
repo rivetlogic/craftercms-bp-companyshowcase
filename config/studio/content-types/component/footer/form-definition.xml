@@ -72,7 +72,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
+					<type>rte</type>
 					<id>brandCopyright_html</id>
 					<iceId></iceId>
 					<title>Brand Copyright</title>
