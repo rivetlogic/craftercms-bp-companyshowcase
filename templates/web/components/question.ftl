@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag $tag="article" class="accordion">
+<@crafter.article class="accordion">
   <div class="accordion-head">
     <@crafter.span $field="question_s">
       ${contentModel.question_s}
@@ -14,4 +14,4 @@
       ${contentModel.answer_html}
     </@crafter.div>
   </div>
-</@crafter.componentRootTag>
+</@crafter.article>
