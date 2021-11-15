@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag $tag="header" class="header-area header-sticky">
+<@crafter.header class="header-area header-sticky">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -29,4 +29,4 @@
       </div>
     </div>
   </div>
-</@crafter.componentRootTag>
+</@crafter.header>
