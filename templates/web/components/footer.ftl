@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag $tag="footer">
+<@crafter.footer>
   <div class="container">
     <div class="row">
       <@crafter.div $field="brandCopyright_html" class="col-lg-7 col-md-12 col-sm-12">
@@ -15,4 +15,4 @@
       </div>
     </div>
   </div>
-</@crafter.componentRootTag>
+</@crafter.footer>
