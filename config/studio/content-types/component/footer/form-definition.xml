@@ -196,7 +196,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>socialButtonComponents</id>
 					<title>Social Button Components</title>
 					<interface>item</interface>

@@ -411,7 +411,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>questions</id>
 					<title>Questions</title>
 					<interface>item</interface>

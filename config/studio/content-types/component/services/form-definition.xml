@@ -149,7 +149,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>services</id>
 					<title>Services</title>
 					<interface>item</interface>
