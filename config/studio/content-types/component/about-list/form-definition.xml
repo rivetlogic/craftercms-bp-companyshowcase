@@ -123,7 +123,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>items</id>
 					<title>Items</title>
 					<interface>item</interface>

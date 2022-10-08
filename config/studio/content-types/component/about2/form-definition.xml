@@ -518,7 +518,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>aboutList</id>
 					<title>About List</title>
 					<interface>item</interface>

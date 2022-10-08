@@ -222,7 +222,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>sections</id>
 					<title>Sections</title>
 					<interface>item</interface>
