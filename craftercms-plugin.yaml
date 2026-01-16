@@ -61,8 +61,8 @@ plugin:
       minor: 3
     - major: 4
       minor: 4
-    - major: 5
-      minor: 0
+    - major: 4
+      minor: 5
   crafterCmsEditions:
     - community
     - enterprise
